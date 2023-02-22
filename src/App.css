@@ -1,7 +1,57 @@
 .App {
   text-align: center;
 }
-
+body{
+  background: black;
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box0{/* 내 이름 */
+  margin-top: 20%;
+  margin-left: 45%;
+}
+.box1{/* 커뮤니티 */
+  margin-top: 13%;
+  margin-left: 34%;
+}
+.box2{/* 경력 */
+  margin-top: 13%;
+  margin-left: 55%;
+}
+.box3{/* 기술 */
+  margin-top: 32%;
+  margin-left: 33%;
+}
+.box4{/* 활동 */
+  margin-top: 32%;
+  margin-left: 52%;
+}
+.box5{/* 프로젝트 */
+  margin-top: 23%;
+  margin-left: 64%;
+}
+.box6{/* 자소서 */
+  margin-top: 25%;
+  margin-left: 25%;
+}
+.map{
+  background: wheat;
+  color: black;
+  padding: 15px;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 55%;
+}
+.black-nav{
+  background: black;
+  color: white;
+  display: flex;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
